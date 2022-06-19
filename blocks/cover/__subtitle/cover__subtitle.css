@@ -7,12 +7,11 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 360px;
-  margin-right: auto;
   margin-left: auto;
   margin-top: 0;
   margin-bottom: auto;
   z-index: 1;
-  margin-right: 48px;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 568px) {
