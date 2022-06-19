@@ -2,6 +2,7 @@
   list-style-type: none;
   padding: 0;
   display: flex;
+  margin: 0;
 }
 
 @media screen and (max-width: 568px) {

@@ -9,4 +9,8 @@
   padding-right: 28px;
   padding-top: 0;
   padding-bottom: 0;
+  max-width: 1184px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }

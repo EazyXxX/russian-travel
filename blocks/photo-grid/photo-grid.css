@@ -10,7 +10,7 @@
   padding-right: 48px;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1210px) {
   .photo-grid {
     gap: 14px;
     grid-template-columns: repeat(3, 300px);
@@ -20,13 +20,23 @@
 
 @media screen and (max-width: 984px) {
   .photo-grid {
-    gap: 14px;
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(5, 264px);
+    gap: 16px;
+          padding-left: 16px;
+      padding-right: 16px;
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 744px) {
+  .photo-grid {
+      padding-left: 0px;
+      padding-right: 0px;
+      max-width: 744px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .photo-grid {
     gap: 12px;
     grid-template-columns: 288px;
