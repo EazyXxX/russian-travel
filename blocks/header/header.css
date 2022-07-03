@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 3fr 0fr 0fr;
   column-gap: 32px;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
   list-style-type: none;
   padding-left: 28px;

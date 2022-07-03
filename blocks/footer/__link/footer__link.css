@@ -7,15 +7,11 @@
   color: white;
   text-decoration: none;
   padding: 0;
-  margin-right: 18px;
+  transition: 0.5s;
 }
 
 .footer__link:hover {
   opacity: 0.8;
-  transition: 0.5s;
-}
-
-.footer__link:not(:hover) {
   transition: 0.5s;
 }
 

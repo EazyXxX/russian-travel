@@ -1,4 +1,4 @@
-.place {
+.place__item {
   display: grid;
   margin-right: auto;
   margin-left: auto;
@@ -15,19 +15,10 @@
   column-gap: 40px;
 }
 
-.place__item:last-of-type {
-  margin-bottom: 80px;
-}
-
-.place__item:nth-of-type(6) {
-  padding-top: 80px;
-}
-
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 940px) {
   .place__item {
     padding-left: 48px;
     padding-right: 48px;
-    column-gap: 32px;
     grid-template-columns: 460px 456px;
   }
 }
