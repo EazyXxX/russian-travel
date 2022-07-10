@@ -11,18 +11,22 @@
   max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
   .footer {
     padding-top: 92px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 570px) {
   .footer {
     flex-direction: column;
     margin-left: 16px;
     margin-right: auto;
     padding-bottom: 24px;
     padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

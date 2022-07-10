@@ -9,10 +9,22 @@
   grid-template-areas:
     "title url"
     "img text";
-  grid-template-rows: max-content 460px;
+  grid-template-rows: 152px 460px;
   grid-template-columns: 460px 484px;
   row-gap: 48px;
   column-gap: 40px;
+}
+
+.places__item:nth-of-type(2){
+  grid-template-rows: 76px 460px;
+}
+
+.places__item:nth-of-type(3){
+  grid-template-rows: 76px 460px;
+}
+
+.places__item:nth-of-type(5){
+  grid-template-rows: 76px 460px;
 }
 
 @media screen and (max-width: 1056px) {
@@ -26,20 +38,54 @@
     max-height: 640px;
     justify-content: center;
   }
+  .places__item:nth-of-type(2){
+    grid-template-rows: 76px 440px;
+  }
+  
+  .places__item:nth-of-type(3){
+    grid-template-rows: 76px 440px;
+  }
+  
+  .places__item:nth-of-type(5){
+    grid-template-rows: 76px 440px;
+  }
+
+  .places__item:last-of-type{
+    margin-bottom: 92px;
+  }
 }
 
   @media screen and (max-width: 940px) {
     .places__item {
       grid-template-columns: 340px 352px;
+      grid-template-rows: 46px 441px;
+      max-height: 535px;
+    }
+
+    .places__item:nth-of-type(2){
+      grid-template-rows: 46px 441px;
+    }
+
+    .places__item:nth-of-type(3){
+      grid-template-rows: 46px 389px;
+    }
+
+    .places__item:nth-of-type(4){
+      grid-template-rows: 46px 340px;
+    }
+
+    .places__item:last-of-type{
+      margin-bottom: 90px;
+      grid-template-rows: 46px 390px;
     }
   }
 
   @media screen and (max-width: 765px) {
     .places__item {
-      max-height: max-content;
+      max-height: 1020px;
       padding-top: 0;
       grid-template-columns: 320px;
-      grid-template-rows: 35px 46px 320px 100%;
+      grid-template-rows: 35px 46px 320px 545px;
       row-gap: 32px;
       padding-left: 0px;
       padding-right: 0px;
@@ -50,7 +96,24 @@
         "text";
     }
 
+    .places__item:nth-of-type(2){
+      grid-template-rows: 35px 46px 320px 519px;
+      max-height: 1043px;
+    }
+
+    .places__item:nth-of-type(3){
+      grid-template-rows: 35px 46px 320px 493px;
+      max-height: 990px;
+    }
+
+    .places__item:nth-of-type(4){
+      grid-template-rows: 35px 46px 320px 449px;
+      max-height: 946px;
+    }
+
     .places__item:last-of-type {
       margin-bottom: 66px;
+      grid-template-rows: 35px 46px 320px 468px;
+      max-height: 965px;
     }
   }
