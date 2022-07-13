@@ -35,7 +35,6 @@
     row-gap: 48px;
     padding: 0;
     margin: 0;
-    max-height: 640px;
     justify-content: center;
   }
   .places__item:nth-of-type(2){
@@ -59,7 +58,6 @@
     .places__item {
       grid-template-columns: 340px 352px;
       grid-template-rows: 46px 441px;
-      max-height: 535px;
     }
 
     .places__item:nth-of-type(2){
@@ -82,7 +80,6 @@
 
   @media screen and (max-width: 765px) {
     .places__item {
-      max-height: 1020px;
       padding-top: 0;
       grid-template-columns: 320px;
       grid-template-rows: 35px 46px 320px 545px;
@@ -98,22 +95,18 @@
 
     .places__item:nth-of-type(2){
       grid-template-rows: 35px 46px 320px 519px;
-      max-height: 1043px;
     }
 
     .places__item:nth-of-type(3){
       grid-template-rows: 35px 46px 320px 493px;
-      max-height: 990px;
     }
 
     .places__item:nth-of-type(4){
       grid-template-rows: 35px 46px 320px 449px;
-      max-height: 946px;
     }
 
     .places__item:last-of-type {
       margin-bottom: 66px;
       grid-template-rows: 35px 46px 320px 468px;
-      max-height: 965px;
     }
   }

@@ -1,7 +1,6 @@
 .places__text {
   margin-top: 0;
   margin-bottom: 0;
-  max-height: fit-content;
 }
 
 .places__text:first-child {

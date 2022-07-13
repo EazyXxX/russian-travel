@@ -6,20 +6,13 @@
   line-height: 163%;
   color: #FFFFFF;
   grid-area: text;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
   padding: 0;
-  max-height: 420px;
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1056px) {
   .places__paragraph {
     max-width: 456px;
-    max-height: 440px;
-    font-size: 18px;
   }
 }
 
@@ -33,6 +26,5 @@
   .places__paragraph {
     padding-left: 16px;
     padding-right: 16px;
-    max-height: 530px;
   }
 }

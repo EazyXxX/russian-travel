@@ -1,12 +1,11 @@
 .header {
   display: grid;
-  grid-template-columns: 3fr 0fr 0fr;
-  column-gap: 32px;
+  grid-template-columns: 3fr 0fr;
   align-items: flex-start;
   margin: 0;
   list-style-type: none;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 0;
   padding-bottom: 0;
   max-width: 1184px;

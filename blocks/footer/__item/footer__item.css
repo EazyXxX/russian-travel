@@ -1,13 +1,13 @@
-.footer__margin {
+.footer__item {
   margin-right: 18px;
 }
 
-.footer__margin:last-of-type {
+.footer__item:last-of-type {
   margin-right: 0;
 }
 
 @media screen and (max-width: 568px) {
-  .footer__margin {
+  .footer__item {
     margin-right: 0;
   }
 }
