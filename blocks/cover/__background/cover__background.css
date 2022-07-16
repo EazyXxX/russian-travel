@@ -1,11 +1,9 @@
 .cover__background {
   background-image: url(../../../images/cover-trains.jpg);
-  justify-content: center;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  align-items: center;
   justify-content: center;
   display: flex;
   box-sizing: border-box;
