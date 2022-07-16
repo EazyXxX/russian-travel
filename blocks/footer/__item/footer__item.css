@@ -9,5 +9,11 @@
 @media screen and (max-width: 568px) {
   .footer__item {
     margin-right: 0;
+    max-height: 24px;
+    padding-bottom: 32px;
+  }
+
+  .footer__item:last-of-type {
+    padding-bottom: 0;
   }
 }

@@ -1,4 +1,4 @@
-.places__link {
+.place__link {
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,6 +9,6 @@
   transition: 0.5s;
 }
 
-.places__link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

@@ -1,21 +1,21 @@
-.places__website {
+.place__website {
   align-self: flex-end;
 }
 
 @media screen and (max-width: 1012px) {
-  .places__website {
+  .place__website {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 784px) {
-  .places__website {
+  .place__website {
     max-width: 288px;
   }
 }
 
 @media screen and (max-width: 568px) {
-  .places__website {
+  .place__website {
     padding-left: 16px;
     padding-right: 16px;
   }

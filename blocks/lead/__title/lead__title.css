@@ -13,6 +13,12 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1056px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+
 @media screen and (max-width: 984px) {
   .lead__title {
     padding-left: 0px;

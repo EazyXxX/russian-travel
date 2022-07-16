@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,19 +11,19 @@
 }
 
 @media screen and (max-width: 1056px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 940px) {
-  .places__paragraph {
+  .place__paragraph {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 568px) {
-  .places__paragraph {
+  .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
   }

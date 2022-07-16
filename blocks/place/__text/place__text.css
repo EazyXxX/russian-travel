@@ -1,18 +1,18 @@
-.places__text {
+.place__text {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.places__text:first-child {
+.place__text:first-child {
   margin-bottom: 26px;
 }
 
-.places__text:last-child {
+.place__text:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 984px) {
-  .places__text:first-child {
+  .place__text:first-child {
     margin-bottom: 25px;
   }
 }
