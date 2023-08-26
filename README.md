@@ -1,37 +1,40 @@
 
-# Путешествия по России
+# Russia-Travel
 
-#### *Это сайт, созданный с целью поделиться полезной информацией и впечатлениями от путешествия по родине*
+#### *This is a site created to share useful information and impressions from traveling around our homeland.*
 ***
 
-[Данный сайт](https://eazyxxx.github.io/russian-travel/index.html) является лендинговой страничкой образовательного формата. Мы продвигаем саморазвитие. Бесплатно.
+[This site](https://eazyxxx.github.io/russian-travel/index.html) is a landing page of an educational format. We promote self-development. For free.
 
-*Путешествия по России* позволяет всем желающим окунуться в атмосферу длительной и увлекательной поездки по родной стране, дарит возможность узнать чуть больше о нескончаемых просторах России. 
+*Traveling around Russia* allows everyone to plunge into the atmosphere of a long and exciting trip around Russia, gives the opportunity to learn a little more about the endless expanses of our country. 
 
-*Путешествия по России* в данный момент использует:
+*Russia-Travel* is currently using:
 
 * HTML
 
 * CSS
-	* Технологии Flexbox и Grid
-	* Адаптивную вёрстку
-    * Позиционирование элементов
-* Структурирование кода и файлов согласно БЭМ и NESTED
+	* Flexbox, Grid
+	* Adaptive layout
+ 	* Cross-browser layout
+    * Elements positioning
+* Code structuring and files according to BEM and NESTED
 
-Функциональность проекта на данный момент не является предельно обширной, но в потенциале *Путешествия по России* **научится**:
+The functionality of the project is not extremely extensive at the moment, but in the potential *Traveling around Russia* **might learn**:
 
-* Использовать формы для обратной связи с пользователями
+* Use user feedback forms
 
-* Использовать технологию JavaScript в целях увеличения количества интерактивных взаимодействий с сайтом
+* Use JavaScript technology to increase the number of interactive interactions with the site
 
-* Сортировать контент согласно предпочтениям пользователей для увеличения количества просмотров
+* Sort content according to user preferences to increase views
 
-* Регулярно публиковать новые материалы 
+* Publish new content regularly
 
 
 
 Made by ***EaZy***
 
-[Ссылка на сайт](https://eazyxxx.github.io/russian-travel/index.html)
+If you don't speak Russian, please, translate this project via [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=ru) browser extension. 
 
-[Яндекс.Практикум](https://practicum.yandex.ru)
+[Actual project link](https://eazyxxx.github.io/russian-travel/index.html)
+
+[Yandex.Prakticum](https://practicum.yandex.ru)
